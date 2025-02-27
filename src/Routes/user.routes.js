@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { VerifyJWT } from "../Middlewares/Auth.middleware.js";
+import { VerifyJWT } from "../Middlewares/auth.middleware.js";
 import { Add_adopted_pet, Update_address, User_login, User_register } from "../Controllers/user.controller.js";
 
 
